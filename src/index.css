@@ -74,6 +74,10 @@ a {
   color: var(--clr-rose);
 }
 
+Link{
+  cursor: pointer;
+}
+
 strong {
   color: var(--clr-indigo);
 }
