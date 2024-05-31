@@ -4,7 +4,7 @@ import './Contact.css'
 const Contact = () => {
   return (
     <div className='section contact container'>
-      <h2 className='contact-title'>Get In Conatct</h2>
+      <h2 className='contact-title'>Get In Contact</h2>
       <p className='contact-desc'>
         Whenever you are starting a project, have business
          inquires or just want to say hi, my inbox is always open
