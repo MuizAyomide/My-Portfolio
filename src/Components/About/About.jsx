@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="about-title">About</h2>
         <p className="about-desc">
           Hello! I'm Akinrinola Muiz Ayomide, a <strong> Computer engineering </strong> student and experienced
-          <strong> Frontend web developer</strong> with a deep passion for
+          <strong> Frontend web developer</strong> and <strong>Graphics designer</strong> with a deep passion for
           creating exceptional user experiences. As a skilled professional in
           the field of web development, I have honed my expertise in translating
           designs into responsive, interactive, and visually appealing web
