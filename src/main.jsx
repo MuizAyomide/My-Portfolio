@@ -8,6 +8,5 @@ import '../src/Styles/Utils.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    darkMode();
   </React.StrictMode>,
 )
