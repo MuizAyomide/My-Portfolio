@@ -13,11 +13,29 @@ const Navbar = () => {
     setMenu(prevMenu => !prevMenu);
     document.body.style.overflowY = navOpen ? 'auto' : 'hidden';
     document.body.style.overflowY = !menu ? 'auto' : 'hidden';
+
   };
+
+
+// state
+  const themes = localStorage.getItem('theme')
+// on mount 
+  theme && document.body.classList.add(themes);
+
+
 
   const toggleTheme = () => {
     setTheme(prevTheme => prevTheme ? 'light-mode' : 'dark');
     document.body.classList.toggle('light-mode'); 
+
+    if( document.body.classList.contains('light-mode') ){
+
+      localStorage.setItem('theme','light-mode');
+    }
+    else{
+      localStorage.removeItem('theme');
+
+    }
   };
 
   return (
