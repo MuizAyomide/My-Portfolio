@@ -12,7 +12,7 @@ const Navbar = () => {
     setNavOpen(prevNavOpen => !prevNavOpen);
     setMenu(prevMenu => !prevMenu);
     document.body.style.overflowY = navOpen ? 'auto' : 'hidden';
-    document.body.style.overflowY = !menu ? 'auto' : 'hidden';
+    document.body.style.overflowY = !menu ? 'hidden' : 'auto' ;
 
   };
 
