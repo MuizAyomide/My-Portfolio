@@ -6,7 +6,7 @@ const Featured = () => {
     <div className="featured section container">
       <h3 className="featured-sub">Featured Project</h3>
       <h2 className="featured-title">
-        Slaying The Dragon{" "}
+        Food Delivery Application{" "}
         <Link className="featured-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,18 +25,19 @@ const Featured = () => {
         </Link>
       </h2>
       <p className="featured-desc">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut aliquam
-        voluptatibus sint distinctio rerum vero temporibus. Voluptatum tenetur
-        blanditiis error!
+        The website features a user-friendly interface that allows customers to
+        easily browse a curated selection of local restaurants and eateries,
+        place orders, and track their deliveries. Responsive design was a key
+        focus, ensuring the platform is accessible across various devices.
       </p>
       <div className="featured-info-container">
         <div>
           <h3 className="featured-label">Tech Stack</h3>
           <ul className="featured-tech-stack">
-            <li className="featured-info">TailwindCSS</li>
+            <li className="featured-info">CSS</li>
             <li className="featured-info">ReactJs</li>
             <li className="featured-info">React-Hook-Form</li>
-            <li className="featured-info">NextJs</li>
+            <li className="featured-info">JavaScript</li>
             <li className="featured-info">Axios</li>
           </ul>
         </div>
@@ -50,34 +51,36 @@ const Featured = () => {
         </div>
       </div>
       <div className="featured-img-container">
-
-      <div className="featured-image-wrapper">
-        <img src="/tomato-home.JPG" alt="Food Delivery Website Image" />
-      </div>
-      <div className="featured-image-wrapper">
-        <img src="/tomato-login.JPG" alt="Food Delivery Website Image" />
-      </div>
-      <div className="featured-image-wrapper">
-        <img src="/tomato-signup.JPG" alt="Food Delivery Website Image" />
-      </div>
-      <div className="featured-image-wrapper">
-        <img src="/tomato-menu-page.JPG" alt="Food Delivery Website Image" />
-      </div>
-      <div className="featured-image-wrapper">
-        <img src="/tomato-food-items.JPG" alt="Food Delivery Website Image" />
-      </div>
-      <div className="featured-image-wrapper">
-        <img src="/tomato-cart-page.JPG" alt="Food Delivery Website Image" />
-      </div>
-      <div className="featured-image-wrapper">
-        <img
-          src="/tomato-delivery-page.JPG"
-          alt="Food Delivery Website Image"
-        />
-      </div>
-      <div className="featured-image-wrapper">
-        <img src="/tomato-contact-page.JPG" alt="Food Delivery Website Image" />
-      </div>
+        <div className="featured-image-wrapper">
+          <img src="/tomato-home.JPG" alt="Food Delivery Website Image" />
+        </div>
+        <div className="featured-image-wrapper">
+          <img src="/tomato-login.JPG" alt="Food Delivery Website Image" />
+        </div>
+        <div className="featured-image-wrapper">
+          <img src="/tomato-signup.JPG" alt="Food Delivery Website Image" />
+        </div>
+        <div className="featured-image-wrapper">
+          <img src="/tomato-menu-page.JPG" alt="Food Delivery Website Image" />
+        </div>
+        <div className="featured-image-wrapper">
+          <img src="/tomato-food-items.JPG" alt="Food Delivery Website Image" />
+        </div>
+        <div className="featured-image-wrapper">
+          <img src="/tomato-cart-page.JPG" alt="Food Delivery Website Image" />
+        </div>
+        <div className="featured-image-wrapper">
+          <img
+            src="/tomato-delivery-page.JPG"
+            alt="Food Delivery Website Image"
+          />
+        </div>
+        <div className="featured-image-wrapper">
+          <img
+            src="/tomato-contact-page.JPG"
+            alt="Food Delivery Website Image"
+          />
+        </div>
       </div>
     </div>
   );
