@@ -1,40 +1,33 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import './Mobile-Nav.css'
+import "./Mobile-Nav.css";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [menu, setMenu] = useState(false);
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState("dark");
 
   const handleMenuToggle = () => {
-    setNavOpen(prevNavOpen => !prevNavOpen);
-    setMenu(prevMenu => !prevMenu);
-    document.body.style.overflowY = navOpen ? 'auto' : 'hidden';
-    document.body.style.overflowY = !menu ? 'hidden' : 'auto' ;
-
+    setNavOpen((prevNavOpen) => !prevNavOpen);
+    setMenu((prevMenu) => !prevMenu);
+    document.body.style.overflowY = navOpen ? "auto" : "hidden";
+    document.body.style.overflowY = !menu ? "hidden" : "auto";
   };
 
-
-// state
-  const themes = localStorage.getItem('theme')
-// on mount 
+  // state
+  const themes = localStorage.getItem("theme");
+  // on mount
   theme && document.body.classList.add(themes);
 
-
-
   const toggleTheme = () => {
-    setTheme(prevTheme => prevTheme ? 'light-mode' : 'dark');
-    document.body.classList.toggle('light-mode'); 
+    setTheme((prevTheme) => (prevTheme ? "light-mode" : "dark"));
+    document.body.classList.toggle("light-mode");
 
-    if( document.body.classList.contains('light-mode') ){
-
-      localStorage.setItem('theme','light-mode');
-    }
-    else{
-      localStorage.removeItem('theme');
-
+    if (document.body.classList.contains("light-mode")) {
+      localStorage.setItem("theme", "light-mode");
+    } else {
+      localStorage.removeItem("theme");
     }
   };
 
@@ -72,9 +65,8 @@ const Navbar = () => {
           </Link>
           <Link className="navbar-resume btn">Resume</Link>
         </nav>
-        
-            
-        <button className='navbar-bar' onClick={handleMenuToggle}>
+
+        <button className="navbar-bar" onClick={handleMenuToggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -92,22 +84,33 @@ const Navbar = () => {
         </button>
       </div>
       {/* Mobile Navigation */}
-      <div className="mobile-nav" style={{display: menu ? "flex" : "none"}}>
+      <div className="mobile-nav" style={{ display: menu ? "flex" : "none" }}>
         <nav>
           <ul className="mobile-nav-menu">
-            <Link to="about" onClick={() => setMenu(false)} className="mobile-nav-link">
+            <Link
+              to="about"
+              onClick={() => setMenu(false)}
+              className="mobile-nav-link"
+            >
               About
             </Link>
-            <Link to="project" onClick={() => setMenu(false)} className="mobile-nav-link">
+            <Link
+              to="project"
+              onClick={() => setMenu(false)}
+              className="mobile-nav-link"
+            >
               Work
             </Link>
-            <Link to="contact" onClick={() => setMenu(false)} className="mobile-nav-link">
+            <Link
+              to="contact"
+              onClick={() => setMenu(false)}
+              className="mobile-nav-link"
+            >
               Contact
             </Link>
             <Link className="mobile-nav-line"></Link>
             <Link className="mobile-nav-sun" onClick={toggleTheme}>
-            
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
