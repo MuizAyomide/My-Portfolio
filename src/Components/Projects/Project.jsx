@@ -20,14 +20,14 @@ const Project = () => {
         <div className="project-project project-content1">
           <h3 className="project-project-sub">Admin Dashboard</h3>
           <p className="project-project-desc1">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            enim ex sint animi dolorum dicta?
+            Designed and developed a robust admin dashboard that streamlines
+            data visualization, user management, and reporting capabilities for
+            seamless business operations.
           </p>
           <p className="project-project-desc2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            laboriosam et nihil! Rerum recusandae, vel cumque blanditiis est cum
-            magnam? Commodi nisi magnam, quam tempore consequuntur harum nulla
-            praesentium expedita?
+            This admin dashboard project showcases my expertise in modern
+            frontend technologies, including React, TypeScript, SCSS, and Vite.
+            The result is a highly performant and scalable web application.
           </p>
           <Link className="project-btn btn">Website</Link>
         </div>
@@ -40,14 +40,16 @@ const Project = () => {
         <div className="project-project project-content2">
           <h3 className="project-project-sub">Educity</h3>
           <p className="project-project-desc1">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            enim ex sint animi dolorum dicta?
+            Educity is a clean, modern university website using a tech stack of
+            React, JavaScript, and Vite. The result is a visually appealing and
+            highly interactive platform.
           </p>
           <p className="project-project-desc2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            laboriosam et nihil! Rerum recusandae, vel cumque blanditiis est cum
-            magnam? Commodi nisi magnam, quam tempore consequuntur harum nulla
-            praesentium expedita?
+            This university website project demonstrates my proficiency in
+            crafting visually striking, user-friendly web experiences.
+            Leveraging a technology stack of React, JavaScript, and Vite, I
+            built a clean, modern, and highly interactive platform to showcase
+            the institution's programs and resources.
           </p>
           <Link className="project-btn btn">Website</Link>
         </div>
@@ -64,14 +66,16 @@ const Project = () => {
         <div className="project-project project-content3">
           <h3 className="project-project-sub">Food Delivery Website</h3>
           <p className="project-project-desc1">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            enim ex sint animi dolorum dicta?
+            Tomato. is a clean, modern food delivery website using a tech stack
+            of React, JavaScript, and Vite. The result is a visually appealing
+            and highly interactive platform.
           </p>
           <p className="project-project-desc2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            laboriosam et nihil! Rerum recusandae, vel cumque blanditiis est cum
-            magnam? Commodi nisi magnam, quam tempore consequuntur harum nulla
-            praesentium expedita?
+            The website features a user-friendly interface that allows customers
+            to easily browse a curated selection of local restaurants and
+            eateries, place orders, and track their deliveries. Responsive
+            design was a key focus, ensuring the platform is accessible across
+            various devices.
           </p>
           <Link className="project-btn btn">Website</Link>
         </div>
@@ -84,14 +88,16 @@ const Project = () => {
         <div className="project-project project-content4">
           <h3 className="project-project-sub">E-commerce Website</h3>
           <p className="project-project-desc1">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            enim ex sint animi dolorum dicta?
+          Developed a clean, modern ecommerce website using a tech stack of
+            React, JavaScript, and Vite. The result is a visually appealing and
+            highly interactive platform.
           </p>
           <p className="project-project-desc2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            laboriosam et nihil! Rerum recusandae, vel cumque blanditiis est cum
-            magnam? Commodi nisi magnam, quam tempore consequuntur harum nulla
-            praesentium expedita?
+            Shoppify  Ecommerce website project demonstrates my expertise in crafting
+            visually appealing, user-friendly online shopping experiences.
+            Leveraging a modern tech stack, I built a responsive, feature-rich
+            platform that streamlines the customer journey from browsing to
+            checkout.
           </p>
           <Link className="project-btn btn">Website</Link>
         </div>
@@ -104,14 +110,16 @@ const Project = () => {
         <div className="project-project project-content5">
           <h3 className="project-project-sub">UniLag</h3>
           <p className="project-project-desc1">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            enim ex sint animi dolorum dicta?
+            The result is a visually appealing and highly interactive platform
+            with multiple pages. Unilag is one of the websites built when i
+            started coding.
           </p>
           <p className="project-project-desc2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            laboriosam et nihil! Rerum recusandae, vel cumque blanditiis est cum
-            magnam? Commodi nisi magnam, quam tempore consequuntur harum nulla
-            praesentium expedita?
+            This university website project demonstrates my proficiency in
+            crafting visually striking, user-friendly web experiences.
+            Leveraging a technology stack of HTML5, JavaScript, and CSS, I built
+            a clean, modern, and highly interactive platform to showcase the
+            institution's programs and resources.
           </p>
           <Link className="project-btn btn">Website</Link>
         </div>
@@ -124,14 +132,14 @@ const Project = () => {
         <div className="project-project project-content6">
           <h3 className="project-project-sub">Chat App</h3>
           <p className="project-project-desc1">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            enim ex sint animi dolorum dicta?
+            This chat app project showcases my skills in building real-time,
+            responsive communication platforms.
           </p>
           <p className="project-project-desc2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            laboriosam et nihil! Rerum recusandae, vel cumque blanditiis est cum
-            magnam? Commodi nisi magnam, quam tempore consequuntur harum nulla
-            praesentium expedita?
+            Designed and developed a real-time chat application that enables
+            seamless communication. By utilizing a tech stack including React,
+            Firebase, redux and Vite, I created a responsive and feature-rich
+            platform for users to connect and collaborate.
           </p>
           <Link className="project-btn btn">Website</Link>
         </div>
