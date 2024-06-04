@@ -11,11 +11,11 @@ const Hero = () => {
         FRONT-END <br /> WEB DEVELOPER.
       </h1>
       <p className="hero-desc">
-        A dedicated and experienced <strong>Frontend  developer</strong> and <strong>Graphics  designner</strong> with a deep passion for
-        creating exceptional user experiences. As a skilled professional in the
-        field of web development, I have honed my expertise in translating
-        designs into responsive, interactive, and visually appealing web
-        applications.
+        A dedicated and experienced <strong>Frontend developer</strong> and{" "}
+        <strong>Graphics designner</strong> with a deep passion for creating
+        exceptional user experiences. As a skilled professional in the field of
+        web development, I have honed my expertise in translating designs into
+        responsive, interactive, and visually appealing web applications.
       </p>
       <a className="hero-btn btn">Reach Out</a>
     </div>
