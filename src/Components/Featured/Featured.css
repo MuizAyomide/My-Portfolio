@@ -1,73 +1,73 @@
-.featured-sub{
+.featured-sub {
     font-size: var(--size-small);
     color: var(--clr-indigo);
     font-weight: 400;
 }
 
-.featuted-title{
+.featuted-title {
     font-size: var(--size-2xl);
     color: var(--clr-light);
 }
 
-.featured-link{
+.featured-link {
     display: inline-block;
     width: var(--size-2xl);
     height: var(--size-2xl);
 }
 
-.featured-desc{
+.featured-desc {
     max-width: 60ch;
     color: var(--clr-slate600);
     font-size: var(--size-sm);
     margin: 1rem 0;
 }
 
-.featured-label{
+.featured-label {
     font-size: var(--size-base);
     text-transform: capitalize;
     margin-bottom: 0.25rem;
 }
 
-.featured-tech-stack{
+.featured-tech-stack {
     padding: 0;
     list-style: none;
 }
 
-.featured-info{
+.featured-info {
     font-size: var(--size-sm);
     color: var(--clr-slate600);
     text-transform: capitalize;
 }
 
-.featured-info-container{
+.featured-info-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.featured-info-container div{
+.featured-info-container div {
     flex: 1;
     min-width: 250px;
 }
 
-.featured-image-wrapper{
+.featured-image-wrapper {
     position: relative;
 }
 
-.featured-img-container{
+.featured-img-container {
     display: grid;
     margin-top: 1rem;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.featured-image-wrapper img{
+.featured-image-wrapper img {
     width: 100%;
     height: 100%;
 }
 
 .featured-image-wrapper::after {
-    content: '';
+    content: "";
     background: rgba(78, 70, 229, 0.699);
     width: 100%;
     height: 100%;
@@ -78,39 +78,39 @@
     transition: 0.3s;
 }
 
-.featured-image-wrapper:hover:after{
+.featured-image-wrapper:hover:after {
     background: rgba(78, 70, 229, 0.3);
 }
 
 /* xs */
 @media (min-width: 475px) {
-    .featured-title{
-        font-size: var(--size-3xl); 
+    .featured-title {
+        font-size: var(--size-3xl);
         text-transform: uppercase;
     }
 
-    .featured-desc{
+    .featured-desc {
         font-size: var(--size-base);
     }
 
-    .featured-sub{
+    .featured-sub {
         font-size: var(--size-base);
     }
 
-    .featured-link{
+    .featured-link {
         width: var(--size-3xl);
         height: var(--size-3xl);
     }
 
-    .featured-label{
+    .featured-label {
         font-size: var(--size-lg);
     }
-    
-    .featured-info{
+
+    .featured-info {
         font-size: var(--size-base);
     }
 
-    .featured-img-container{
+    .featured-img-container {
         margin-top: 1.5rem;
         grid-gap: 1.5rem;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -119,7 +119,7 @@
 
 /* sm */
 @media (min-width: 640px) {
-    .featured-img-container{
+    .featured-img-container {
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
 }
@@ -129,67 +129,64 @@
 
 /* lg */
 @media (min-width: 1024px) {
-    .featured-title{
-        font-size: var(--size-4xl); 
-        
+    .featured-title {
+        font-size: var(--size-4xl);
     }
 
-    .featured-sub{
+    .featured-sub {
         font-size: var(--size-lg);
     }
 
-    .featured-link{
+    .featured-link {
         width: var(--size-4xl);
         height: var(--size-4xl);
     }
 
-    .featured-desc{
+    .featured-desc {
         font-size: var(--size-lg);
     }
 
-    .featured-label{
+    .featured-label {
         font-size: var(--size-xl);
     }
-    
-    .featured-info{
+
+    .featured-info {
         font-size: var(--size-lg);
     }
 }
 
 /* xl */
 @media (min-width: 1280px) {
-    .featured-title{
+    .featured-title {
         font-size: var(--size-5xl);
     }
 
-    .featured-sub{
+    .featured-sub {
         font-size: var(--size-xl);
     }
 
-    .featured-label{
+    .featured-label {
         font-size: var(--size-2xl);
     }
-    
-    .featured-info{
+
+    .featured-info {
         font-size: var(--size-xl);
     }
 
-    .featured-desc{
+    .featured-desc {
         font-size: var(--size-xl);
         margin: 1.5rem 0;
     }
 
-    .featured-link{
+    .featured-link {
         width: var(--size-5xl);
         height: var(--size-5xl);
     }
 
-    .featured-img-container{
+    .featured-img-container {
         margin-top: 2rem;
         grid-gap: 2rem;
     }
-
-    
 }
 
 /* 2xl */
