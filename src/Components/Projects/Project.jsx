@@ -7,12 +7,11 @@ const Project = () => {
     <div className="container section project">
       <h2 className="project-title">Projects</h2>
       <p className="project-desc">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
-        assumenda sint, blanditiis illum quisquam voluptatem consectetur
-        voluptate iste.
+        This versatile web project highlights my skills in crafting visually
+        compelling, user-centric digital experiences. By blending design and
+        functionality, I create impactful online solutions for my clients.
       </p>
       <div className="project-container">
-    
         {/* project 1 */}
         <h3 className="project-project-title">Admin Dashboard</h3>
         <div className="project-image-wrapper project-image1">
@@ -31,9 +30,8 @@ const Project = () => {
             praesentium expedita?
           </p>
           <Link className="project-btn btn">Website</Link>
-        
-      </div>
-    
+        </div>
+
         {/* project 2 */}
         <h3 className="project-project-title">Educity</h3>
         <div className="project-image-wrapper project-image2">
@@ -52,9 +50,8 @@ const Project = () => {
             praesentium expedita?
           </p>
           <Link className="project-btn btn">Website</Link>
-        
-      </div>
-    
+        </div>
+
         {/* project 3 */}
         <h3 className="project-project-title">Food Delivery Website</h3>
         <div className="project-image-wrapper project-image3">
@@ -77,9 +74,8 @@ const Project = () => {
             praesentium expedita?
           </p>
           <Link className="project-btn btn">Website</Link>
-        
-      </div>
-    
+        </div>
+
         {/* project 4 */}
         <h3 className="project-project-title">E-commerce Website</h3>
         <div className="project-image-wrapper project-image4">
@@ -98,9 +94,8 @@ const Project = () => {
             praesentium expedita?
           </p>
           <Link className="project-btn btn">Website</Link>
-        
-      </div>
-    
+        </div>
+
         {/* project 5 */}
         <h3 className="project-project-title">UniLag</h3>
         <div className="project-image-wrapper project-image5">
@@ -119,9 +114,8 @@ const Project = () => {
             praesentium expedita?
           </p>
           <Link className="project-btn btn">Website</Link>
-        
-      </div>
-    
+        </div>
+
         {/* project 6 */}
         <h3 className="project-project-title">Chat App</h3>
         <div className="project-image-wrapper project-image6">
@@ -140,8 +134,7 @@ const Project = () => {
             praesentium expedita?
           </p>
           <Link className="project-btn btn">Website</Link>
-        
-      </div>
+        </div>
       </div>
     </div>
   );
