@@ -6,7 +6,7 @@ const Featured = () => {
     <div className="featured section container">
       <h3 className="featured-sub">Featured Project</h3>
       <h2 className="featured-title">
-        Food Delivery Application{" "}
+        Food Delivery App{" "}
         <Link className="featured-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
