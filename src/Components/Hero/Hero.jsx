@@ -17,7 +17,11 @@ const Hero = () => {
         web development, I have honed my expertise in translating designs into
         responsive, interactive, and visually appealing web applications.
       </p>
-      <a className="hero-btn btn">Reach Out</a>
+      <a className="hero-btn btn"
+      onClick={() =>
+        window.open("https://wa.me/07081386939?text=Hi Akinrinola", "_blank")
+      }
+       >Reach Out</a>
     </div>
   );
 };
