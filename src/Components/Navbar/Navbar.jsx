@@ -63,7 +63,14 @@ const Navbar = () => {
               </svg>
             </button>
           </Link>
-          <Link className="navbar-resume btn">Resume</Link>
+          <Link 
+           smooth={true}
+           duration={500}
+           offset={-80}
+           onClick={() =>
+             window.open("Akinrinola Muiz Tech Resume.pdf", "_blank")
+           }
+          className="navbar-resume btn">Resume</Link>
         </nav>
 
         <button className="navbar-bar" onClick={handleMenuToggle}>
@@ -125,7 +132,17 @@ const Navbar = () => {
                 />
               </svg>
             </Link>
-            <Link className="btn mobile-nav-btn">Resume</Link>
+            <Link
+              smooth={true}
+              duration={500}
+              offset={-80}
+              onClick={() =>
+                window.open("Akinrinola Muiz Tech Resume.pdf", "_blank")
+              }
+              className="btn mobile-nav-btn"
+            >
+              Resume
+            </Link>
           </ul>
         </nav>
       </div>
