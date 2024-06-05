@@ -29,7 +29,11 @@ const Project = () => {
             frontend technologies, including React, TypeScript, SCSS, and Vite.
             The result is a highly performant and scalable web application.
           </p>
-          <Link className="project-btn btn">Website</Link>
+          <Link 
+          onClick={()=>{
+            window.open('https://educity-three.vercel.app/', '_blank')
+          }}
+          className="project-btn btn">Website</Link>
         </div>
 
         {/* project 2 */}
@@ -51,7 +55,12 @@ const Project = () => {
             built a clean, modern, and highly interactive platform to showcase
             the institution's programs and resources.
           </p>
-          <Link className="project-btn btn">Website</Link>
+          <Link 
+          onClick={()=>{
+            window.open('https://educity-three.vercel.app/', '_blank')
+          }}
+        
+          className="project-btn btn">Website</Link>
         </div>
 
         {/* project 3 */}
@@ -77,7 +86,11 @@ const Project = () => {
             design was a key focus, ensuring the platform is accessible across
             various devices.
           </p>
-          <Link className="project-btn btn">Website</Link>
+          <Link
+          onClick={()=>{
+            window.open('https://ecommerce-frontend-pi-two.vercel.app/', '_blank')
+          }}
+          className="project-btn btn">Website</Link>
         </div>
 
         {/* project 4 */}
@@ -99,7 +112,11 @@ const Project = () => {
             platform that streamlines the customer journey from browsing to
             checkout.
           </p>
-          <Link className="project-btn btn">Website</Link>
+          <Link 
+          onClick={()=>{
+            window.open('https://ecommerce-frontend-pi-two.vercel.app/', '_blank')
+          }}
+          className="project-btn btn">Website</Link>
         </div>
 
         {/* project 5 */}
@@ -121,7 +138,11 @@ const Project = () => {
             a clean, modern, and highly interactive platform to showcase the
             institution's programs and resources.
           </p>
-          <Link className="project-btn btn">Website</Link>
+          <Link 
+          onClick={()=>{
+            window.open('https://unilag-university-website.vercel.app/', '_blank')
+          }}
+          className="project-btn btn">Website</Link>
         </div>
 
         {/* project 6 */}
@@ -141,7 +162,11 @@ const Project = () => {
             Firebase, redux and Vite, I created a responsive and feature-rich
             platform for users to connect and collaborate.
           </p>
-          <Link className="project-btn btn">Website</Link>
+          <Link 
+          onClick={()=>{
+            window.open('https://ecommerce-frontend-pi-two.vercel.app/', '_blank')
+          }}
+          className="project-btn btn">Website</Link>
         </div>
       </div>
     </div>
