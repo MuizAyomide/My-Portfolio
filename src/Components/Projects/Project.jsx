@@ -57,7 +57,7 @@ const Project = () => {
           </p>
           <Link 
           onClick={()=>{
-            window.open('https://educity-three.vercel.app/', '_blank')
+            window.open('https://educity-university.vercel.app/', '_blank')
           }}
         
           className="project-btn btn">Website</Link>
