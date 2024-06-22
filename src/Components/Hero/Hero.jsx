@@ -10,6 +10,7 @@ const Hero = () => {
       <h1 className="hero-title">
         FRONT-END <br /> WEB DEVELOPER.
       </h1>
+      
       <p className="hero-desc">
         A dedicated and experienced <strong>Frontend developer</strong> and{" "}
         <strong>Graphics designner</strong> with a deep passion for creating
