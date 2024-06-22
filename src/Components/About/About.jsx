@@ -8,6 +8,7 @@ const About = () => {
         <h2 className="about-title">About</h2>
         <p className="about-desc">
           Hello! I'm Akinrinola Muiz Ayomide, a{" "}
+          
           <strong> Computer engineering </strong> student and experienced
           <strong> Frontend web developer</strong> and{" "}
           <strong>Graphics designer</strong> with a deep passion for creating
