@@ -25,6 +25,7 @@ const Project = () => {
             seamless business operations.
           </p>
           <p className="project-project-desc2">
+            
             This admin dashboard project showcases my expertise in modern
             frontend technologies, including React, TypeScript, SCSS, and Vite.
             The result is a highly performant and scalable web application.
