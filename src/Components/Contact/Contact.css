@@ -9,6 +9,7 @@
 
 .contact-title {
     font-size: var(--size-2xl);
+    
     color: var(--clr-light);
     text-transform: capitalize;
 }
