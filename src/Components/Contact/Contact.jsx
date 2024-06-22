@@ -12,6 +12,7 @@ const Contact = () => {
       </p>
       <a
         href="mailto:akinrinolamuiz@gmail.com"
+        
         target="_blank"
         className="btn contact-btn"
       >
