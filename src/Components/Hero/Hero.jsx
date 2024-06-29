@@ -20,7 +20,7 @@ const Hero = () => {
       </p>
       <a className="hero-btn btn"
       onClick={() =>
-        window.open("https://wa.me/07081386939?text=Hi Akinrinola", "_blank")
+        window.open("https://wa.me/2347081386939?text=Hi Akinrinola", "_blank")
       }
        >Reach Out</a>
     </div>
