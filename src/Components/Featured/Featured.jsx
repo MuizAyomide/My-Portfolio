@@ -8,7 +8,14 @@ const Featured = () => {
       <h2 className="featured-title">
         
         Food Delivery App{" "}
-        <Link className="featured-link">
+        <Link className="featured-link"
+         onClick={() => {
+          window.open(
+            "https://ecommerce-frontend-pi-two.vercel.app/",
+            "_blank"
+          );
+        }}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
