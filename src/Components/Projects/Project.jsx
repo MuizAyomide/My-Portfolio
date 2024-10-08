@@ -235,7 +235,7 @@ const Project = () => {
         {/* project 8 */}
         <h3 className="project-project-title">Chat App</h3>
         <div className="project-image-wrapper project-image8">
-          <img className="project-image" src="/chat-app.JPG" alt="" />
+          <img className="project-image" src="/ChatGPT.JPG" alt="" />
         </div>
         <div className="project-project project-content8">
           <h3 className="project-project-sub">Chat App</h3>
@@ -252,7 +252,7 @@ const Project = () => {
           <Link
             onClick={() => {
               window.open(
-                "https://ecommerce-frontend-pi-two.vercel.app/",
+                "https://chatgpt-clone-fawn-xi.vercel.app/",
                 "_blank"
               );
             }}
