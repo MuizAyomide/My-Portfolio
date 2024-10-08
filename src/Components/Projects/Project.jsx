@@ -233,12 +233,12 @@ const Project = () => {
           className="project-btn btn">Website</Link>
         </div>
         {/* project 8 */}
-        <h3 className="project-project-title">Chat App</h3>
+        <h3 className="project-project-title">ChatGPT Clone</h3>
         <div className="project-image-wrapper project-image8">
           <img className="project-image" src="/ChatGPT.JPG" alt="" />
         </div>
         <div className="project-project project-content8">
-          <h3 className="project-project-sub">Chat App</h3>
+          <h3 className="project-project-sub">ChatGPT Clone</h3>
           <p className="project-project-desc1">
             This chat app project showcases my skills in building real-time,
             responsive communication platforms.
