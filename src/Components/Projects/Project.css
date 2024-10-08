@@ -118,7 +118,11 @@
             "image3 content3"
             "content4 image4"
             "image5 content5"
-            "content6 image6";
+            "content6 image6"
+            "image7 content7"
+            "content8 image8"
+
+            ;
     }
 
     .project-image1 {
@@ -145,6 +149,14 @@
         grid-area: image6;
     }
 
+    .project-image7 {
+        grid-area: image7;
+    }
+
+    .project-image8 {
+        grid-area: image8;
+    }
+
     .project-content1 {
         grid-area: content1;
     }
@@ -167,6 +179,14 @@
 
     .project-content6 {
         grid-area: content6;
+    }
+
+    .project-content7 {
+        grid-area: content7;
+    }
+
+    .project-content8 {
+        grid-area: content8;
     }
 
     .project-project-title {
