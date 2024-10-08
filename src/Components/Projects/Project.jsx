@@ -213,7 +213,7 @@ const Project = () => {
         <div className="project-image-wrapper project-image7">
           <img className="project-image" src="/admin-dashboard.png" alt="" />
         </div>
-        <div className="project-project project-content">
+        <div className="project-project project-content7">
           <h3 className="project-project-sub">Admin Dashboard</h3>
           <p className="project-project-desc1">
             Designed and developed a robust admin dashboard that streamlines
