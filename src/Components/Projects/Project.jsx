@@ -240,14 +240,12 @@ const Project = () => {
         <div className="project-project project-content8">
           <h3 className="project-project-sub">ChatGPT Clone</h3>
           <p className="project-project-desc1">
-            This chat app project showcases my skills in building real-time,
-            responsive communication platforms.
-          </p>
+            This ChatGPT Clone project is a replicate to the chatGPT AI application using the Open AI API
+            </p>
           <p className="project-project-desc2">
-            Designed and developed a real-time chat application that enables
-            seamless communication. By utilizing a tech stack including React,
-            Firebase, redux and Vite, I created a responsive and feature-rich
-            platform for users to connect and collaborate.
+            Designed and developed a real-time chatGPT application that enables
+            seamless tasks. By utilizing a tech stack including React,
+            and Open AI API.
           </p>
           <Link
             onClick={() => {
