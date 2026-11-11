@@ -138,7 +138,7 @@ const Navbar = () => {
               duration={500}
               offset={-80}
               onClick={() =>
-                window.open("Akinrinola Muiz Resume.pdf")
+                window.open("Akinrinola_Muiz Tech Resume.pdf")
               }
               className="btn mobile-nav-btn"
             >
