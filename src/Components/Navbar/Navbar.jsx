@@ -138,7 +138,7 @@ const Navbar = () => {
               duration={500}
               offset={-80}
               onClick={() =>
-                window.open("Muiz Tech Resume.pdf", "_blank")
+                window.open("https://drive.google.com/file/d/1_e9jcX2yZ42scBYLAG08dQ2yUspx6kTd/view?usp=drive_link", "_blank")
               }
               className="btn mobile-nav-btn"
             >
