@@ -133,17 +133,14 @@ const Navbar = () => {
                 />
               </svg>
             </Link>
-            <Link
-              smooth={true}
-              duration={500}
-              offset={-80}
-              onClick={() =>
-                window.open("https://drive.google.com/file/d/1_e9jcX2yZ42scBYLAG08dQ2yUspx6kTd/view?usp=drive_link", "_blank")
-              }
-              className="btn mobile-nav-btn"
-            >
+            <a
+  href="https://drive.google.com/file/d/1_e9jcX2yZ42scBYLAG08dQ2yUspx6kTd/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn mobile-nav-btn"
+>
               Resume
-            </Link>
+            </a>
           </ul>
         </nav>
       </div>
