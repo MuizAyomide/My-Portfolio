@@ -69,7 +69,7 @@ const Navbar = () => {
            duration={500}
            offset={-80}
            onClick={() =>
-             window.open("Muiz Tech Resume.pdf", "_blank")
+             window.open("Akinrinola_Muiz Tech Resume.pdf", "_blank")
            }
           className="navbar-resume btn">Resume</Link>
         </nav>
@@ -143,7 +143,7 @@ const Navbar = () => {
               className="btn mobile-nav-btn"
             >
               Resume
-            </link>
+            </Link>
           </ul>
         </nav>
       </div>
