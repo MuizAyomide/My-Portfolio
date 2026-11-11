@@ -133,14 +133,17 @@ const Navbar = () => {
                 />
               </svg>
             </Link>
-            <a
-  href="https://drive.google.com/file/d/1_e9jcX2yZ42scBYLAG08dQ2yUspx6kTd/view?usp=drive_link"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn mobile-nav-btn"
->
+            <Link
+              smooth={true}
+              duration={500}
+              offset={-80}
+              onClick={() =>
+                window.open("Akinrinola Muiz Resume.pdf")
+              }
+              className="btn mobile-nav-btn"
+            >
               Resume
-            </a>
+            </link>
           </ul>
         </nav>
       </div>
